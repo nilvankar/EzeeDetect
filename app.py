@@ -5,8 +5,7 @@ import string
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-
-nltk.download("punkt",quiet=True)
+nltk.download('punkt_tab',quiet=True)
 nltk.download("stopwords",quiet=True)
 # Instantiate the stemmer outside or inside the function
 ps = PorterStemmer()
